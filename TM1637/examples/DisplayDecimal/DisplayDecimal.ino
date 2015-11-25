@@ -7,8 +7,8 @@
 /*********************************************************************/
 
 #include "TM1637.h"
-#define CLK 3//pins definitions for the module and can be changed to other ports       
-#define DIO 2
+#define CLK 9//pins definitions for the module and can be changed to other ports       
+#define DIO 8
 TM1637 disp(CLK,DIO);
 void setup()
 {
