@@ -23,8 +23,8 @@ unsigned char _second;
 unsigned int eepromaddr;
 boolean Flag_ReadTime;
 
-#define CLK 3//pins definitions for TM1637 and can be changed to other ports        
-#define DIO 2
+#define CLK 9//pins definitions for TM1637 and can be changed to other ports        
+#define DIO 8
 TM1637 tm1637(CLK,DIO);
 
 void setup()
