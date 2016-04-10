@@ -5,8 +5,11 @@
 
 #include "TM1637.h"
  
-//{0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19};
+//{0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20};
 //0~9,A,b,C,d,E,F,"-"," ",degree,r,h
+// 10 -> A, 11 -> b, 12 ->C, 13 -> d, 14 -> E, 15 -> F
+// 16 -> -, 17 -> space, 18 -> degree sign, 19 -> r, 20 -> h
+
 
 #include <DHT.h> 
 #define DHTPIN A2     // what pin we're connected the DHT output
@@ -57,16 +60,16 @@ void loop(){
     
     delay (3000);
     
-    tm1637.display(0,17);  // 
-    tm1637.display(1,17);  // 
-    tm1637.display(2,17);  // put letter 'r'
-    tm1637.display(3,17);  // put letter 'h'
+    tm1637.display(0,17);  // empty
+    tm1637.display(1,17);  // empty
+    tm1637.display(2,17);  // empty
+    tm1637.display(3,17);  // empty
 
 
     tm1637.display(0,digitoneH); 
     tm1637.display(1,digittwoH);
-    tm1637.display(2,19);  // clear 1st digit
-    tm1637.display(3,20);  // clear 2ns digit
+    tm1637.display(2,19);  // r
+    tm1637.display(3,20);  // h
  
   
   //Fastest should be once every two seconds.
