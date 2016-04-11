@@ -24,6 +24,8 @@
 //  Author: Nicu FLORICA (niq_ro) - http://www.tehnic.go.ro & http://www.arduinotehniq.com
 //  Date: 25 november, 2015
 //  Note: put sign for degree, letter 'r' & 'h'
+//  Date: 10 march, 2016
+//  Note: put sign for degree, letter 'r', 'h' & 'n'
 /*******************************************************************************/
 #include "TM1637.h"
 #include <Arduino.h>
@@ -31,7 +33,7 @@ static int8_t TubeTab[] = {0x3f,0x06,0x5b,0x4f,
                            0x66,0x6d,0x7d,0x07,
                            0x7f,0x6f,0x77,0x7c,
                            0x39,0x5e,0x79,0x71,
-                           0x40,0x00,0x63,0x50,0x74 };//0~9,A,b,C,d,E,F,"-"," ",degree,r,h  
+                           0x40,0x00,0x63,0x50,0x74,0x54 };//0~9,A,b,C,d,E,F,"-"," ",degree,r,h,n
 
 TM1637::TM1637(uint8_t Clk, uint8_t Data)
 {
