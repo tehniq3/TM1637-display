@@ -26,6 +26,8 @@
         //      Note: put sign for degree, letter 'r' & 'h'
         //      Date: 10 march, 2016
         //      Note: put sign for degree, letter 'r', 'h' & 'n'
+        //  Date: 21 september, 2016
+        //  Note: put letter 't', "u up and _ bottom" & "u bottom and - up" 
 	/*******************************************************************************/
 	
 #ifndef TM1637_h
