@@ -21,7 +21,11 @@
 	//	Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA  02110-1301  USA
 	//
 	//	Modified record:
-	//
+	//      Author: Nicu FLORICA (niq_ro) - http://www.tehnic.go.ro & http://www.arduinotehniq.com
+        //      Date: 25 november, 2015
+        //      Note: put sign for degree, letter 'r' & 'h'
+        //      Date: 10 march, 2016
+        //      Note: put sign for degree, letter 'r', 'h' & 'n'
 	/*******************************************************************************/
 	
 #ifndef TM1637_h
