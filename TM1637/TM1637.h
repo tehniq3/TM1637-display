@@ -1,4 +1,4 @@
-	//	Author:Fred.Chu
+		//	Author:Fred.Chu
 	//	Date:9 April,2013
 	//
 	//	Applicable Module:
@@ -22,12 +22,12 @@
 	//
 	//	Modified record:
 	//      Author: Nicu FLORICA (niq_ro) - http://www.tehnic.go.ro & http://www.arduinotehniq.com
-        //      Date: 25 november, 2015
-        //      Note: put sign for degree, letter 'r' & 'h'
-        //      Date: 10 march, 2016
-        //      Note: put sign for degree, letter 'r', 'h' & 'n'
-        //  Date: 21 september, 2016
-        //  Note: put letter 't', "u up and _ bottom" & "u bottom and - up" 
+      //      Date: 25 november, 2015
+      //      Note: put sign for degree, letter 'r' & 'h'
+      //      Date: 10 march, 2016
+      //      Note: put sign for degree, letter 'r', 'h' & 'n'
+      //  Date: 21 september, 2016
+      //  Note: put letter 't', "u up and _ bottom" & "u bottom and - up" 
 	/*******************************************************************************/
 	
 #ifndef TM1637_h
