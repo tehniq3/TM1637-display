@@ -1,5 +1,6 @@
 # TM1637-display
-a modified library for TM1637 for display symbol for degree, 'r' 'h' &amp; 'n' letters
+a modified library for TM1637 for display more symbols: degree, 'r' 'h' &amp; 'n' letters and 'u' with _, 'u' with - (2016)
+2022: added 'o' letter 
 
 usefull info: http://nicuflorica.blogspot.ro/search?q=TM1637
 
