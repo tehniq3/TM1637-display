@@ -23,11 +23,13 @@
 	//	Modified record:
 	//      Author: Nicu FLORICA (niq_ro) - http://www.tehnic.go.ro & http://www.arduinotehniq.com
       //      Date: 25 november, 2015
-      //      Note: put sign for degree, letter 'r' & 'h'
+      //      Note: added sign for degree, letter 'r' & 'h'
       //      Date: 10 march, 2016
-      //      Note: put sign for degree, letter 'r', 'h' & 'n'
-      //  Date: 21 september, 2016
-      //  Note: put letter 't', "u up and _ bottom" & "u bottom and - up" 
+      //      Note: added sign for degree, letter 'r', 'h' & 'n'
+      //      Date: 21 september, 2016
+      //      Note: added letter 't', "u up and _ bottom" & "u bottom and - up" 
+      // 	Date: 27 October 2022
+      //  	Note: added 'o' 
 	/*******************************************************************************/
 	
 #ifndef TM1637_h
