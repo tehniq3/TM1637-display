@@ -29,7 +29,7 @@
 //  Date: 21 september, 2016
 //  Note: put letter 't', "u up and _ bottom" & "u bottom and - up"
 //  Date: 27 October 2022
-//  Note: added 'o'
+//  Note: added 'o' and 'P'
 /*******************************************************************************/
 #include "TM1637.h"
 #include <Arduino.h>
@@ -39,7 +39,7 @@ static int8_t TubeTab[] = {0x3f,0x06,0x5b,0x4f,
                            0x39,0x5e,0x79,0x71,
                            0x40,0x00,0x63,0x50,
                            0x74,0x54,0x78,0x6a,
-			   0x1d,0x5c };
+			   0x1d,0x5c,0x73 };
 // 0~9,A,b,C,d,E,F,"-"," ",degree,r,h,n,t, u with _, u with -
 
 TM1637::TM1637(uint8_t Clk, uint8_t Data)
