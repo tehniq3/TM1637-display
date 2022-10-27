@@ -6,7 +6,7 @@
 //		    from right to left.
 //Store: http://www.aliexpress.com/store/1199788
 /*********************************************************************/
-#include "TM1637.h"
+#include "TM1637.h"  // https://github.com/tehniq3/TM1637-display
 #define CLK 9//pins definitions for TM1637 and can be changed to other ports       
 #define DIO 8
 TM1637 tm1637(CLK,DIO);
