@@ -29,7 +29,7 @@
       //      Date: 21 september, 2016
       //      Note: added letter 't', "u up and _ bottom" & "u bottom and - up" 
       // 	Date: 27 October 2022
-      //  	Note: added 'o' 
+      //  	Note: added 'o' and 'P'
 	/*******************************************************************************/
 	
 #ifndef TM1637_h
