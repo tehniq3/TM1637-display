@@ -6,7 +6,7 @@
 //Store: http://www.aliexpress.com/store/1199788
 /*********************************************************************/
 #include <TimerOne.h>
-#include "TM1637.h"
+#include "TM1637.h"  // https://github.com/tehniq3/TM1637-display
 #define ON 1
 #define OFF 0
 
