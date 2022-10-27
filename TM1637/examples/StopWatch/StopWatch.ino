@@ -9,7 +9,7 @@
 #include <EEPROM.h>
 #include <TimerOne.h>
 #include <avr/pgmspace.h>
-#include "TM1637.h"
+#include "TM1637.h"  // https://github.com/tehniq3/TM1637-display
 #define ON 1
 #define OFF 0
 
