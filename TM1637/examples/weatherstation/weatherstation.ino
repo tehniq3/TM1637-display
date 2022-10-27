@@ -3,7 +3,7 @@
 // thermometer & hygromether with DHT sensor on TM1637 LED display by niq_ro from http://www.tehnic.go.ro
 // & http://arduinotehniq.com/
 
-#include "TM1637.h"
+#include "TM1637.h"  // https://github.com/tehniq3/TM1637-display
  
 //{0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20};
 //0~9,A,b,C,d,E,F,"-"," ",degree,r,h,n
